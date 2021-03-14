@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  margin: 0 ;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.caixa-header {
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  background-image: url('../img/leticia2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 80vh;
+}
+
+.btn-branco {
+  background-color: white;
+  padding: 15px;
+  width: 180px;
+  border-radius: 80px;
+
+}
+/*secao de conteudo */
+
+h2 {
+  font-size: 36px;
+  color: #C4C4C4;
+  margin: 50px;
+}
+
+h3 {
+  color: #616060;
+}
+
+.caixa-secao-conteudo {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.caixa-somente-conteudo {
+  display: flex;
+  margin: 25px 55px;
+}
+
+.caixa-sobre-mim {
+  width: 40%;
+
+}
+
+.caixa-lista-sobre-mim {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.btn-roxo {
+  padding: 15px;
+  width: 190px;
+  border-radius: 80px;
+  border: purple 1px solid;
+  color: purple;
+
+}
+
+.caixa-texto-sobre-mim {
+  margin-bottom: 50px;
+}
+
+
+/* redes sociais */
+
+
+.caixa-mae-rede-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.caixa-item-rede-social {
+  padding: 20px;
+  text-align: center;
+  background-color: purple;
+  width: 180px;
+  height: 180px;
+  margin-right: 40px;
+
+}
+
+.link-rede-social {
+  color: white;
+
+}
+
+footer {
+  text-align: center;
+  color: #C4C4C4;
+  font-size: 40px;
+  padding: 30px;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 700px) {
+
+.caixa-header {
+  text-align: center;
+}
+
+.caixa-mae-rede-social{
+  flex-direction: column;
+  align-items: center;
+}
+
+.caixa-item-rede-social {
+  margin-top: 20px;
+}
+
+.caixa-somente-conteudo {
+  flex-direction: column;
+  align-items: center;
+}
+
+.caixa-sobre-mim {
+  width: 80%;
+}
+
+.caixa-lista-sobre-mim {
+  margin-top: 55px;
+  width: 80%;
+}
+
+}
